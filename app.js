@@ -1,10 +1,10 @@
-let btn=document.querySelector(".btnShow")
+let btnSH=document.querySelector(".btnShowHide")
 let container=document.querySelector(".container");
 
 
 let flag=0;
 
-btn=addEventListener("click",()=>{
+btnSH=addEventListener("click",()=>{
 
    
     if(flag==0){
@@ -19,6 +19,9 @@ btn=addEventListener("click",()=>{
 
 
 })
+
+let btnCH=document.querySelector(".btnChange")
+
 
 
 
