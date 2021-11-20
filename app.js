@@ -1,11 +1,21 @@
-let btnSH=document.querySelector(".btnShowHide")
+let btnSH=document.querySelector(".btnShowHide");
 let container=document.querySelector(".container");
 
+let descriere=document.querySelector(".description");
 
-let flag=0;
+let changeDesc=document.querySelector(".changeDescription");
 
-btnSH=addEventListener("click",()=>{
+let lista=document.querySelector(".testlista");
+let btnAdaugare=document.querySelector(".btnAdd");
 
+let newitem=document.querySelector(".newitemclass");
+
+let btnRemoveItem=document.querySelector(".btnDelete");
+
+let flag=1;
+
+btnSH.addEventListener("click",()=>{
+    
    
     if(flag==0){
       
@@ -18,9 +28,34 @@ btnSH=addEventListener("click",()=>{
    
 
 
+});
+
+let btnCH=document.querySelector(".btnChange");
+
+btnCH.addEventListener("click",()=>{
+    descriere.textContent=changeDesc.value;
+});
+
+btnAdaugare.addEventListener("click",()=>{
+    let elem=document.createElement("li");
+
+    elem.textContent=newitem.value;
+    lista.append(elem);
+
+    newitem.value="";
+    
+
 })
 
-let btnCH=document.querySelector(".btnChange")
+btnRemoveItem.addEventListener("click",()=>{
+      
+    lista.removeChild(lista.lastChild);
+})
+
+
+
+
+ 
 
 
 
