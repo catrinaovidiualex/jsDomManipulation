@@ -11,6 +11,7 @@ let btnAdaugare=document.querySelector(".btnAdd");
 let newitem=document.querySelector(".newitemclass");
 
 let btnRemoveItem=document.querySelector(".btnDelete");
+let btnCH=document.querySelector(".btnChange");
 
 let flag=1;
 
@@ -30,7 +31,6 @@ btnSH.addEventListener("click",()=>{
 
 });
 
-let btnCH=document.querySelector(".btnChange");
 
 btnCH.addEventListener("click",()=>{
     descriere.textContent=changeDesc.value;

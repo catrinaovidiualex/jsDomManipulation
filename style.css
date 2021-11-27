@@ -42,3 +42,58 @@ ul{
     height: 30px;
     cursor:pointer;
 }
+span.up{
+    margin-right:5px;
+    border:1px solid  rgb(145, 145, 145);
+    background-color: rgb(14, 196, 177);
+    color:white;
+    
+}
+span.dw{
+    margin-right:5px;
+    border:1px solid  rgb(145, 145, 145);
+    background-color: rgb(70, 80, 219);
+    color:white;
+    
+}
+span.dlt{
+    margin-right:5px;
+    border:1px solid  rgb(145, 145, 145);
+    background-color: rgb(97, 97, 99);
+    color:white;
+    
+}
+
+
+.btns{
+    display: flex;
+    flex: 1 1 1;
+    border: 1px rgb(114, 98, 250) solid;
+    margin-left:15px;
+    
+    
+    
+
+}
+
+.purple{
+    display: flex;
+  
+    flex: 1 1 1;
+   /* border: 1px red solid;*/
+    text-align: center;
+    margin-top:5px;
+    flex: flex-end;
+    justify-content: flex-end;
+      
+    
+}
+
+.testlista{
+    align-items:center;
+    flex-direction: row;
+    /*border: 1px  solid green;*/
+    width:30%;
+   
+   
+}
