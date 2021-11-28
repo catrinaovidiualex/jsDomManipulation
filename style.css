@@ -2,6 +2,23 @@ ul{
     list-style: none;
 }
 
+body{
+    margin:5px;
+}
+.container{
+    margin:0;
+    width:60%;
+    display:grid;
+    
+ 
+}
+
+.c2{
+    grid-template-rows: 50px;
+    float:left;
+    width:300px;
+}
+
 .btnShowHide{
     background-color: rgb(45, 194, 194);
     color:white;
@@ -89,11 +106,12 @@ span.dlt{
     
 }
 
-.testlista{
-    align-items:center;
-    flex-direction: row;
-    /*border: 1px  solid green;*/
-    width:30%;
-   
-   
+.newitemclass{
+    width:120px;
 }
+
+.c3{
+    display:inline-block;
+    width:300px;
+}
+
