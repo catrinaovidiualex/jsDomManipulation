@@ -85,7 +85,7 @@ function attachbtn(li){
 
 
 
-//stergere element din lista
+//stergere element din lista, mutare up and down
 
 lista.addEventListener("click",(e)=>{
 
@@ -103,6 +103,8 @@ lista.addEventListener("click",(e)=>{
 
      }
 
+  /*daca apasam pe butonul de 'up' */
+
        if(obj.classList.contains("up")) {
            let card=obj.parentNode;
            let prev=card.previousElementSibling;
@@ -112,12 +114,10 @@ lista.addEventListener("click",(e)=>{
             lista.insertBefore(card,prev);
 
            }
-         
-
-          
-           
-
+       
        }
+
+     /*daca apasam pe butonul de 'down' */   
 
       if (obj.classList.contains("dw")){
            let card=obj.parentNode;
