@@ -85,6 +85,54 @@ function attachbtn(li){
 
 
 
+//stergere element din lista
+
+lista.addEventListener("click",(e)=>{
+
+
+     let obj=e.target;
+     /*daca apasam pe butonul de 'delete' */
+     if(obj.classList.contains("dlt")){
+         
+
+        let card=obj.parentNode;
+
+
+        lista.removeChild(card);
+
+
+     }
+
+       if(obj.classList.contains("up")) {
+           let card=obj.parentNode;
+           let prev=card.previousElementSibling;
+
+           if(prev){
+
+            lista.insertBefore(card,prev);
+
+           }
+         
+
+          
+           
+
+       }
+
+      if (obj.classList.contains("dw")){
+           let card=obj.parentNode;
+           let next=card.nextElementSibling;
+
+           if(next){
+               lista.insertBefore(next,card);
+           }
+       }
+
+      
+
+        
+})
+
 
  
 
