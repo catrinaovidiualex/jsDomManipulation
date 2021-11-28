@@ -40,15 +40,19 @@ btnCH.addEventListener("click",()=>{
 
 btnAdaugare.addEventListener("click",()=>{
     let elem=document.createElement("li");
+
+    if(newitem.value!=="")
+    {
     
     elem.textContent=newitem.value;
 
     attachbtn(elem);
 
     lista.append(elem);
-
+    
     
     newitem.value="";
+    }
     
 
 })
