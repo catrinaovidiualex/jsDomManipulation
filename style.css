@@ -64,6 +64,7 @@ span.up{
     border:1px solid  rgb(145, 145, 145);
     background-color: rgb(14, 196, 177);
     color:white;
+    cursor:pointer;
     
 }
 span.dw{
@@ -71,6 +72,7 @@ span.dw{
     border:1px solid  rgb(145, 145, 145);
     background-color: rgb(70, 80, 219);
     color:white;
+    cursor:pointer;
     
 }
 span.dlt{
@@ -78,6 +80,7 @@ span.dlt{
     border:1px solid  rgb(145, 145, 145);
     background-color: rgb(97, 97, 99);
     color:white;
+    cursor:pointer;
     
 }
 
